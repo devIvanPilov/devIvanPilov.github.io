@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Istok+Web:700|Open+Sans:400,600&subset=latin-ext');
+
+
+
+h1{
+    font-family: "Istok Web", sans-serif;
+    font-size: calc(3rem + 1.5vw);
+    font-weight: 700;
+}
+
+h2{
+    font-family: "Open Sans", sans-serif;
+    font-size: calc(2rem + 1vw);
+    font-weight: 600;
+}
+
+h3{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
+}
+
+p{
+    text-align: left;
+}
+header {
+    height:100%;
+    
+    text-align: center;
+}
+
+header img{
+    width: 20vw;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin: 50px;
+    
+}
+
+.container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid black;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    scroll-behavior: smooth;
+    
+}
+
+#skills .container{
+    font-size: calc(8rem + 2vw);
+       
+}
+
+
+#projects .container .card-deck{
+    padding-top: 60px;
+}
+
+#contact .container{
+    font-size: calc(6rem + 2vw);
+}
+
+#contact ul li{
+    display: inline-flex;
+    list-style: none;
+    margin: 2rem;
+}

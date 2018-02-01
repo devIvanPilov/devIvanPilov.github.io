@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/style.css">
-
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <title>devIvanPilov</title>
   </head>
   <body id="page-top">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main" aria-controls="navbar-main" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,7 +24,7 @@
               <a class="nav-link" href="#page-top">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#projects">Projects</a>
@@ -35,11 +35,103 @@
           </ul>
         </div>
       </nav>
+<!--Header-->
+     <header>
+       <div class="container">
+         <img src="img/avatar.jpg" alt="">
+         <h1>Ivan Pilov</h1>
+         <div class="intro-text">
+           <h3>Web Developer & Photographer</h3>
+           <p class="lead">
+             I'm an amateur photographer shooting with vintage film cameras. Recently I've taken up web development as my major area of interest. I'm self-studying HTML, CSS and JavaScript, and am planning to go deeper into JS frameworks once I'm done with the basics.
+           </p>
+           <p class="lead">
+             This page is thought to be my web dev portfolio website and I will add the projects I'm doing into the Projects section as they become ready. <br>
+            If you want to check out my photo works, please go <a href="http://www.ivanpilov.com">www.ivanpilov.com</a>.
+           </p>
+         </div>
+       </div>
+     </header>
+     <!--Header end-->
+
+     <!--Skills-->
+     <section id="skills">
+       <div class="container">
+         <h2>My Skills</h2>
+         <div class="row">
+            <div class="col-md">
+                <i class="fab fa-html5"></i>
+            </div>
+            <div class="col-md">
+                <i class="fab fa-css3-alt"></i>
+            </div>
+            <div class="col-md">
+                <i class="fab fa-js"></i>
+            </div>
+         </div>
+       </div>
+     </section>
+     <!--Skills end-->
+
+     <!--Projects-->
+     <section id="projects">
+       <div class="container">
+         <h2>My Projects</h2>
+         <div class="row">
+            <div class="card-deck">
+                <div class="card">
+                  <img class="card-img-top" src="https://cdn.pixabay.com/photo/2017/12/29/16/34/fruit-3048001_1280.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Choose and Orange Test</h5>
+                    <p class="card-text">My first time writing anything JavaScript. A primitive set-up for choosing the right picture.</p>
+                    <a href="https://github.com/devIvanPilov/orange-test" class="btn btn-primary">Source</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="https://timedotcom.files.wordpress.com/2016/12/david-bowie-station-to-station-thin-white-duke-3-8-1_26.jpg?quality=85&w=836" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">David Bowie Tribute Page</h5>
+                    <p class="card-text">A freeCodeCamp project for practicing HTML and CSS.</p>
+                    <a href="https://codepen.io/ivan_dev/pen/BJqQYm" class="btn btn-primary">Take a look</a>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="https://cdn.pixabay.com/photo/2017/07/28/23/18/coming-soon-2550190_1280.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">My Awesome Project</h5>
+                    <p class="card-text">A placeholder for my next project which is definitely gonna be awesome.</p>
+                    <a href="#" class="btn btn-primary">Wait for it</a>
+                  </div>
+                </div>
+              </div>
+         </div>
+       </div>
+     </section>
+     <!--Projects end-->
+
+     <!--Contact-->
+     <section id="contact">
+       <div class="container">
+         <h2>My Links</h2>
+         <div class="row">
+           <div class="col-md-12">
+            <ul>
+              <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              <li><a href=""><i class="fab fa-github"></i></a></li>
+              <li><a href=""><i class="fab fa-codepen"></i></a></li>
+            </ul>
+           </div>
+         </div>
+       </div>
+     </section>
+     <!--Contact end-->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
   </body>
 </html>
